@@ -1,0 +1,59 @@
+body {
+    background-color: #ADD8E6;
+   border-radius:20 ;
+   margin: auto;
+   max-width: 800px;
+   min-width: 320px;
+}
+#elicome {
+  background-color:#A020F0 ;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 10px;
+}
+#bu {
+    background-color: #00FF00;
+    border-radius: 10px;
+}
+nav {
+   background-color: rgb(128, 0, 128);
+   border-radius: 5px;
+   margin: 10px 166px 10px 253px; /*funciona pra mexer o espaço em branco do modelo de caixa*/
+}
+.diva {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+nav a { 
+    color :white;
+    font-weight: bold;
+    transition-duration: 2s;
+}
+nav a:hover {
+    background-color: #A020F0;
+}
+#mai {
+    background-color: #6495ED;
+    border-radius: 20px;
+    
+}
+footer {
+    background-color: #A020F0;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px 0px 0px 0px;
+}
+ article{
+    border-radius: 10px;
+    
+    padding: 0px;
+ }
+ img {
+    max-width: 350px;
+ }
+ aside {
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+    background-color: #6666ff;
+ }
