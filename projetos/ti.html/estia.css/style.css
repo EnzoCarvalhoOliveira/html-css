@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
 body {
     background-color: #ADD8E6;
-   border-radius:20 ;
+   border-radius: 1px;
    margin: auto;
    max-width: 800px;
    min-width: 320px;
@@ -25,7 +25,7 @@ header h1 {
 nav {
    background-color: rgb(128, 0, 128);
    border-radius: 5px;
-   margin: 10px 166px 10px 253px; /*funciona pra mexer o espaço em branco do modelo de caixa*/
+   margin: 10px 20px 10px 35px; /*funciona pra mexer o espaço em branco do modelo de caixa*/
 }
 nav a { 
     color :white;
