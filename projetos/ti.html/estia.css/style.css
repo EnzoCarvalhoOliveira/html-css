@@ -25,7 +25,7 @@ header h1 {
 nav {
    background-color: rgb(128, 0, 128);
    border-radius: 5px;
-   margin: 10px 20px 10px 35px; /*funciona pra mexer o espaço em branco do modelo de caixa*/
+    /*margin funciona pra mexer o espaço em branco do modelo de caixa*/
 }
 nav a { 
     color :white;
@@ -48,8 +48,7 @@ footer {
 }
  article{
     border-radius: 10px;
-    
-    padding: 0px;
+    margin-top: 20px;
  }
  img {
     max-width: 350px;
