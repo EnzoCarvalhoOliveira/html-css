@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    @font-face {
+      font-family: 'figtree';
+      src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+    }
+    body {
+      display: flex;
+      background-color: hsl(47, 88%, 63%);
+      align-items: center;
+      width: 100%;
+    }
+    .container {
+      font-family: 'figtree';
+      background-color: white;
+      margin: 0px auto;
+      border-radius:10px ;
+      max-width: 360px;
+      padding-left: 23px;
+      padding-top: 12px;
+      box-shadow: 8px 8px 3px 3px hsl(0, 0%, 7%);
+      border: 2px black solid;
+    }
+     img {
+      border-radius: 10px;
+     }
+    .image {
+      border-top-left-radius: 5px;
+      width: 100%;
+    }
+    .text {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .bonito {
+    background-color: hsl(47, 88%, 63%);
+    border-radius:3px ;
+    border: 6px transparent;
+    font-weight: bold;
+    padding: 7px;
+    }
+    .bunito {
+      padding-top: 20px;
+    }
+    .html-text {
+      width: 100%;
+      letter-spacing: -2px;
+      margin-bottom:10px ;
+      margin-top: 10px;
+    }
+    .cor {
+      color: hsl(0, 0%, 7%);
+      margin-bottom:10px ;
+    }
+    .other-cor {
+      color: hsl(220, 15%, 55%);
+      margin-top: 10px;
+    }
+    .other-image {
+      display: flex;
+      align-items: center;
+      
+      width: 100%;
+    }
+    .other-text {
+      display: flex;
+      align-items: center;
+      font-weight: bold;
+    }
+    .other-image img {
+      width: 38px;
+      padding-right:15px ;
+    }
+  </style>
+</head>
+<body>
+ <div class="container">
+  <div class="image"><img src="assets/images/illustration-article.svg" alt="illustration-article"></img></div>
+  <div class="text">
+    <div class="bunito"><button class="bonito">Learning</button></div>
+   
+    <p class="cor">Published 21 Dec 2023</p>
+    <h1 class="html-text">HTML & CSS foundations</h1>
+    <p class="other-cor">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+ </div>
+  <div class="other-image"><img src="assets/images/image-avatar.webp" alt="image-avatar"></img>
+  <p class="other-text">Greg Hooper</p></div>
+</div>
+</body>
+</html>
